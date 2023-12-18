@@ -63,3 +63,57 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .header {
+        background: #012D63;
+    }
+    
+    .logo {
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+    
+    .hiro-title {
+        color: #FFF;
+        font-family: Playfair Display;
+        font-size: 144px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .hiro-title-h2 {
+        color: #FFF;
+        font-family: Playfair Display;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .hiro-text {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .hiro-btn {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .advantages-title {
+        color: #FFF;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
