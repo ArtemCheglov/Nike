@@ -1,119 +1,121 @@
-    body {
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-    }
-    
-     :root {
-        color: #FFFFFF;
-        color: #C7C7C7;
-        color: #DCDCDC;
-        color: #D8D8D8;
-        color: #959595;
-        color: #8D8D8D;
-        color: #012D63;
-        color: #8E32C6;
-        color: #021635;
-    }
-    
-    img {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    li {
-        list-style: none;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    ul,
-    p {
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    address {
-        font-style: normal;
-    }
-    
-    .visually-hidden {
-        position: absolute !important;
-        clip: rect(1px 1px 1px 1px);
-        clip: rect(1px, 1px, 1px, 1px);
-        padding: 0 !important;
-        border: 0 !important;
-        height: 1px !important;
-        width: 1px !important;
-        overflow: hidden;
-    }
-    
-    .container {
-        width: 1140px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .header {
-        background: #012D63;
-    }
-    
-    .logo {
-        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    }
-    
-    .hiro-title {
-        color: #FFF;
-        font-family: Playfair Display;
-        font-size: 144px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .hiro-title-h2 {
-        color: #FFF;
-        font-family: Playfair Display;
-        font-size: 72px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .hiro-text {
-        color: #FFF;
-        font-family: Roboto;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .hiro-btn {
-        color: #FFF;
-        font-family: Roboto;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .advantages-title {
-        color: #FFF;
-        text-align: center;
-        font-family: Playfair Display;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+ :root {
+    --color-basic: #FFFFFF;
+    color: #C7C7C7;
+    color: #DCDCDC;
+    color: #D8D8D8;
+    color: #959595;
+    color: #8D8D8D;
+    color: #012D63;
+    color: #8E32C6;
+    color: #021635;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+address {
+    font-style: normal;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background: #012D63;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.hero-title {
+    color: var(--color-basik);
+    font-family: "Playfair Display", sans-serif;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-title-h2 {
+    color: var(--color-basik);
+    font-family: "Playfair Display", sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-text {
+    color: var(--color-basik);
+    /* font-family: Roboto; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-btn {
+    color: var(--color-basik);
+    /* font-family: Roboto; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.advantages-title {
+    color: var(--color-basik);
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
