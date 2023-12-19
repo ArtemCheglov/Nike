@@ -1,121 +1,258 @@
-body {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-}
-
- :root {
-    --color-basic: #FFFFFF;
-    color: #C7C7C7;
-    color: #DCDCDC;
-    color: #D8D8D8;
-    color: #959595;
-    color: #8D8D8D;
-    color: #012D63;
-    color: #8E32C6;
-    color: #021635;
-}
-
-img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-p {
-    margin: 0px;
-    padding: 0px;
-}
-
-address {
-    font-style: normal;
-}
-
-.visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden;
-}
-
-.container {
-    width: 1140px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.header {
-    background: #012D63;
-}
-
-.logo {
-    width: 100px;
-    display: block;
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
-}
-
-.hero-title {
-    color: var(--color-basik);
-    font-family: "Playfair Display", sans-serif;
-    font-size: 144px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.hero-title-h2 {
-    color: var(--color-basik);
-    font-family: "Playfair Display", sans-serif;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.hero-text {
-    color: var(--color-basik);
-    /* font-family: Roboto; */
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.hero-btn {
-    color: var(--color-basik);
-    /* font-family: Roboto; */
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.advantages-title {
-    color: var(--color-basik);
-    text-align: center;
-    font-family: "Playfair Display";
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+    body {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+    }
+    
+     :root {
+        --color-basic: #FFFFFF;
+        --color-clacik: #C7C7C7;
+        --color-hero: #DCDCDC;
+        --color-adventeges: #D8D8D8;
+        --color-reviews: #959595;
+        --color-order: #8D8D8D;
+        --color-footer: #012D63;
+        --color-box: #8E32C6;
+        --color-container: #021635;
+        --color-hr: #9B9B9B;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    ul,
+    p {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    address {
+        font-style: normal;
+    }
+    
+    .visually-hidden {
+        position: absolute !important;
+        clip: rect(1px 1px 1px 1px);
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0 !important;
+        border: 0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        overflow: hidden;
+    }
+    
+    .container {
+        width: 1140px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .header {
+        background: var(--color-container);
+    }
+    
+    .logo {
+        width: 100px;
+        display: block;
+        /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    }
+    
+    .hero {
+        background: url(<path-to-image>);
+    }
+    
+    .hero-title {
+        color: var(--color-basik);
+        font-family: "Playfair Display", sans-serif;
+        font-size: 144px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .hero-title-h2 {
+        color: var(--color-basik);
+        font-family: "Playfair Display", sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .hero-text {
+        color: var(--color-basik);
+        /* font-family: Roboto; */
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .hero-btn {
+        border-radius: 10px;
+        background: var(--color-box);
+    }
+    
+    .advantages {
+        background: url(<path-to-image>), lightgray 0px -384px / 100% 227.888% no-repeat;
+    }
+    
+    .advantages-list {
+        stroke-width: 5px;
+        stroke: var(--color-box);
+    }
+    
+    .advantages-title {
+        color: var(--color-basik);
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .advantages-hr {
+        background: var(--color-basik);
+    }
+    
+    .reviews {
+        background: url(<path-to-image>), lightgray 0px -9px / 100% 255.769% no-repeat;
+    }
+    
+    .reviews-title {
+        color: var(--color-basik);
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .reviews-text {
+        color: var(--color-basik);
+        font-family: "Roboto";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .span {
+        color: var(--color-adventeges);
+        font-family: "Roboto";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .reviews-name {
+        color: var(--color-basik);
+        font-family: "Roboto";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .reviews-data {
+        color: var(--color-adventeges);
+        font-family: "Roboto";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .logo-box {
+        border-radius: 31px;
+        background: url(<path-to-image>);
+    }
+    
+    .order {
+        background: url(<path-to-image>), lightgray -1.001px -1.002px / 100.209% 158.214% no-repeat;
+    }
+    
+    .order-title {
+        color: var(--color-basik);
+        font-family: "Playfair Display";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .form-input {
+        border-radius: 50px;
+        background: var(--color-basik);
+    }
+    
+    .form-btn {
+        border-radius: 16px;
+        background: var(--color-box);
+    }
+    
+    .item {
+        color: var(--color-basik);
+        font-family: "Roboto";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .footer {
+        background: var(--color-container);
+    }
+    
+    .footer-cnt {
+        color: var(--color-basik);
+        font-family: "Roboto";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+    
+    .footer-year {
+        color: var(--color-basik);
+        font-family: "Roboto";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .footer-country {
+        color: var(--color-basik);
+        font-family: "Roboto";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .footer-hr {
+        background: var(--color-hr);
+    }
