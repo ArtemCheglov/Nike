@@ -90,6 +90,8 @@ address {
 }
 
 .hero {
+    align-items: center;
+    display: flex;
     width: 1440px;
     height: 858px;
     background-image: url(../img/img8.png);
@@ -128,17 +130,24 @@ address {
 }
 
 .advantages {
+    align-items: center;
+    display: flex;
     width: 1440px;
     height: 606px;
     background-image: url(../img/img6.png);
 }
 
 .advantages-list {
-    stroke-width: 5px;
-    stroke: var(--color-box);
+    border: 5px solid var(--color-box);
+    display: flex;
+    /* flex-direction: column; */
 }
 
 .advantages-title {
+    flex-direction: column;
+    display: flex;
+    /* text-align: center; */
+    width: 159px;
     color: var(--color-basic);
     text-align: center;
     font-family: "Playfair Display";
@@ -149,28 +158,44 @@ address {
 }
 
 .advantages-hr {
+    height: 346px;
     background: var(--color-basic);
 }
 
+.advantages>.logo {
+    width: 243px;
+    height: 243px;
+}
+
 .reviews {
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 124px;
+    padding-top: 24px;
     width: 1440px;
-    height: 520px;
+    /* height: 520px; */
     background-image: url(../img/img7.png);
 }
 
 .reviews-item1 {
+    padding: 49px 14px 29px 14px;
+    max-width: 255px;
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
     box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
 }
 
 .reviews-item2 {
+    max-width: 255px;
     border-radius: 15px;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
     box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
 }
 
 .reviews-item3 {
+    padding: 49px 14px 29px 14px;
+    max-width: 255px;
     border-radius: 15px;
     background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
     box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
@@ -187,6 +212,7 @@ address {
 }
 
 .reviews-text {
+    margin-bottom: 8px;
     color: var(--color-basic);
     font-family: "Roboto";
     font-size: 24px;
@@ -196,6 +222,8 @@ address {
 }
 
 .span {
+    display: flex;
+    margin-bottom: 48px;
     color: var(--color-adventeges);
     font-family: "Roboto";
     font-size: 14px;
@@ -205,6 +233,7 @@ address {
 }
 
 .reviews-name {
+    width: 99px;
     color: var(--color-basic);
     font-family: "Roboto";
     font-size: 14px;
@@ -223,6 +252,8 @@ address {
 }
 
 .order {
+    align-items: center;
+    display: flex;
     width: 1440px;
     height: 509px;
     background-image: url(../img/img5.png);
@@ -257,6 +288,8 @@ address {
 }
 
 .footer {
+    align-items: center;
+    display: flex;
     width: 1440px;
     height: 292px;
     background-color: var(--color-container);
@@ -292,4 +325,10 @@ address {
 
 .footer-hr {
     background: var(--color-hr);
+}
+
+.footer-logo {
+    width: 108px;
+    height: 81px;
+    background: url(../img/img1.png);
 }
