@@ -89,6 +89,15 @@ address {
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
 
+.logo-style {
+    color: var(--color-basic);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .hero {
     margin-right: auto;
     margin-left: auto;
@@ -187,6 +196,7 @@ address {
 }
 
 .reviews-item1 {
+    padding: 49px 14px 29px 14px;
     max-width: 255px;
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
@@ -194,6 +204,7 @@ address {
 }
 
 .reviews-item2 {
+    padding: 49px 14px 29px 14px;
     max-width: 255px;
     border-radius: 15px;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
@@ -269,6 +280,7 @@ address {
 }
 
 .order-title {
+    text-align: center;
     color: var(--color-basic);
     font-family: "Playfair Display";
     font-size: 48px;
@@ -277,12 +289,23 @@ address {
     line-height: normal;
 }
 
+.form-input1 {
+    width: 690px;
+    height: 60px;
+    border-radius: 50px;
+    background: var(--color-basic);
+}
+
 .form-input {
+    width: 580px;
+    height: 50px;
     border-radius: 50px;
     background: var(--color-basic);
 }
 
 .form-btn {
+    width: 248px;
+    height: 68px;
     border-radius: 16px;
     background: var(--color-box);
 }
