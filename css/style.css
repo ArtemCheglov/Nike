@@ -90,8 +90,8 @@ address {
 }
 
 .hero {
-    align-items: center;
-    display: flex;
+    margin-right: auto;
+    margin-left: auto;
     width: 1440px;
     height: 858px;
     background-image: url(../img/img8.png);
@@ -130,6 +130,8 @@ address {
 }
 
 .advantages {
+    margin-right: auto;
+    margin-left: auto;
     align-items: center;
     display: flex;
     width: 1440px;
@@ -178,8 +180,13 @@ address {
     background-image: url(../img/img7.png);
 }
 
+.reviews-list {
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+}
+
 .reviews-item1 {
-    padding: 49px 14px 29px 14px;
     max-width: 255px;
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
@@ -252,6 +259,8 @@ address {
 }
 
 .order {
+    margin-right: auto;
+    margin-left: auto;
     align-items: center;
     display: flex;
     width: 1440px;
@@ -288,36 +297,22 @@ address {
 }
 
 .footer {
+    margin-right: auto;
+    margin-left: auto;
     align-items: center;
     display: flex;
-    width: 1440px;
     height: 292px;
     background-color: var(--color-container);
 }
 
-.footer-cnt1 {
-    margin-left: 940px;
-    font-family: "Roboto";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration-line: underline;
+.footer-container {
+    display: flex;
+    justify-content: center;
 }
 
-.footer-cnt2 {
-    margin-left: 892px;
-    font-family: "Roboto";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration-line: underline;
-}
-
-.footer-cnt3 {
-    margin-left: 902px;
-    font-family: "Roboto";
+.footer-cnt {
+    color: var(--color-basic);
+    font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
