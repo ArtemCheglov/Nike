@@ -295,8 +295,28 @@ address {
     background-color: var(--color-container);
 }
 
-.footer-cnt {
-    color: var(--color-basic);
+.footer-cnt1 {
+    margin-left: 940px;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.footer-cnt2 {
+    margin-left: 892px;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.footer-cnt3 {
+    margin-left: 902px;
     font-family: "Roboto";
     font-size: 24px;
     font-style: normal;
