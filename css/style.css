@@ -20,6 +20,8 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    width: 240;
+    height: 240;
 }
 
 a {
@@ -67,6 +69,20 @@ address {
 
 .header {
     background: var(--color-container);
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 33px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+    gap: 29px;
 }
 
 .menu-link {
@@ -140,6 +156,14 @@ address {
 }
 
 .hero-btn {
+    padding: 20px 61px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
     width: 254px;
     height: 67px;
     border-radius: 10px;
@@ -165,9 +189,9 @@ address {
 }
 
 .advantages-title {
-    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
-    /* text-align: center; */
     width: 159px;
     color: var(--color-basic);
     text-align: center;
@@ -179,10 +203,14 @@ address {
 }
 
 .advantages-hr {
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
     height: 346px;
     background: var(--color-basic);
     width: 1px;
-    height: 346px;
 }
 
 .advantages>.logo {
@@ -330,6 +358,8 @@ address {
 }
 
 .item {
+    padding: 25px 50px;
+    text-align: center;
     color: var(--color-basic);
     font-family: "Roboto";
     font-size: 24px;
