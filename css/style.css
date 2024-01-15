@@ -117,9 +117,9 @@ address {
 .hero {
     margin-right: auto;
     margin-left: auto;
-    width: 1440px;
-    height: 858px;
     background-image: url(../img/img8.png);
+    padding-top: 219px;
+    padding-bottom: 447px;
 }
 
 .hero-title {
@@ -175,9 +175,9 @@ address {
     margin-left: auto;
     align-items: center;
     display: flex;
-    width: 1440px;
-    height: 606px;
     background-image: url(../img/img6.png);
+    padding-top: 130px;
+    padding-bottom: 236px;
 }
 
 .advantages-list {
@@ -222,10 +222,8 @@ address {
     margin-right: auto;
     margin-left: auto;
     background-repeat: no-repeat;
-    padding-bottom: 124px;
+    padding-bottom: 430px;
     padding-top: 24px;
-    width: 1440px;
-    /* height: 520px; */
     background-image: url(../img/img7.png);
 }
 
@@ -320,9 +318,9 @@ address {
     margin-left: auto;
     align-items: center;
     display: flex;
-    width: 1440px;
-    height: 509px;
     background-image: url(../img/img5.png);
+    padding-top: 21px;
+    padding-bottom: 424px;
 }
 
 .order-title {
