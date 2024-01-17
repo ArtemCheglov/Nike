@@ -115,11 +115,24 @@ address {
 }
 
 .hero {
+    background-position: center;
+    background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
     background-image: url(../img/img8.png);
-    padding-top: 219px;
-    padding-bottom: 447px;
+    padding-top: 91px;
+    padding-bottom: 183px;
+}
+
+.hero-logo {
+    color: var(--color-basic);
+    font-family: PT Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 178px;
+    height: 86px;
 }
 
 .hero-title {
@@ -176,8 +189,10 @@ address {
     align-items: center;
     display: flex;
     background-image: url(../img/img6.png);
-    padding-top: 130px;
-    padding-bottom: 236px;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .advantages-list {
@@ -222,9 +237,10 @@ address {
     margin-right: auto;
     margin-left: auto;
     background-repeat: no-repeat;
-    padding-bottom: 430px;
+    padding-bottom: 115px;
     padding-top: 24px;
     background-image: url(../img/img7.png);
+    background-position: center;
 }
 
 .reviews-list {
@@ -319,8 +335,10 @@ address {
     align-items: center;
     display: flex;
     background-image: url(../img/img5.png);
-    padding-top: 21px;
-    padding-bottom: 424px;
+    padding-top: 20px;
+    padding-bottom: 37px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .order-title {
@@ -419,7 +437,18 @@ address {
 }
 
 .footer-logo {
+    background: url(../img/img1.png);
     width: 108px;
     height: 81px;
-    background: url(../img/img1.png);
+}
+
+.footer-logo1 {
+    color: var(--color-basic);
+    font-family: PT Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 178px;
+    height: 86px;
 }
