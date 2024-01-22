@@ -189,7 +189,6 @@ address {
     align-items: center;
     display: flex;
     background-image: url(../img/img6.png);
-    padding-top: 105px;
     padding-bottom: 105px;
     background-position: center;
     background-repeat: no-repeat;
@@ -389,13 +388,14 @@ address {
     margin-left: auto;
     align-items: center;
     display: flex;
-    height: 292px;
     background-color: var(--color-container);
+    padding-top: 45px;
+    padding-bottom: 24px;
 }
 
 .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .footer-cnt {
