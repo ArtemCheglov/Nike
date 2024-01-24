@@ -120,7 +120,7 @@ address {
     margin-right: auto;
     margin-left: auto;
     background-image: url(../img/img8.png);
-    padding-top: 91px;
+    padding-top: 83px;
     padding-bottom: 183px;
 }
 
@@ -189,7 +189,7 @@ address {
     margin-left: auto;
     /* align-items: center; */
     display: flex;
-    background-image: url(../img/img6.png);
+    background-image: url(../img/img7.png);
     padding-top: 105px;
     padding-bottom: 105px;
     background-position: center;
@@ -251,9 +251,9 @@ address {
     margin-right: auto;
     margin-left: auto;
     background-repeat: no-repeat;
-    padding-bottom: 115px;
-    padding-top: 24px;
-    background-image: url(../img/img7.png);
+    padding-bottom: 50px;
+    padding-top: 25px;
+    background-image: url(../img/img6.png);
     background-position: center;
 }
 
