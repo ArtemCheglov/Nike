@@ -158,6 +158,7 @@ address {
 }
 
 .hero-text {
+    margin-bottom: 41px;
     color: var(--color-basic);
     /* font-family: Roboto; */
     font-size: 18px;
@@ -186,20 +187,34 @@ address {
 .advantages {
     margin-right: auto;
     margin-left: auto;
-    align-items: center;
+    /* align-items: center; */
     display: flex;
     background-image: url(../img/img6.png);
+    padding-top: 105px;
     padding-bottom: 105px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .advantages-list {
+    justify-content: center;
     border: 5px solid var(--color-box);
     display: flex;
     /* flex-direction: column; */
-    width: 1110px;
-    height: 396px;
+    /* width: 1110px; */
+    /* height: 396px; */
+}
+
+.advantages-list>.item {
+    padding: 25px 50px;
+    text-align: center;
+    color: var(--color-basic);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .advantages-title {
@@ -273,6 +288,7 @@ address {
 }
 
 .reviews-title {
+    margin-bottom: 24px;
     color: var(--color-basic);
     text-align: center;
     font-family: "Playfair Display";
@@ -341,6 +357,7 @@ address {
 }
 
 .order-title {
+    margin-bottom: 33px;
     text-align: center;
     color: var(--color-basic);
     font-family: "Playfair Display";
@@ -349,6 +366,13 @@ address {
     font-weight: 400;
     line-height: normal;
     height: 64px;
+}
+
+.form {
+    gap: 19px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
 
 .form-input1 {
@@ -372,17 +396,6 @@ address {
     background: var(--color-box);
 }
 
-.item {
-    padding: 25px 50px;
-    text-align: center;
-    color: var(--color-basic);
-    font-family: "Roboto";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .footer {
     margin-right: auto;
     margin-left: auto;
@@ -391,6 +404,21 @@ address {
     background-color: var(--color-container);
     padding-top: 45px;
     padding-bottom: 24px;
+}
+
+.footer-list {
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-list>.item {
+    color: var(--color-basic);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .footer-container {
