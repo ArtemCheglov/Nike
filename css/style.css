@@ -187,23 +187,18 @@ address {
 .advantages {
     margin-right: auto;
     margin-left: auto;
-    /* align-items: center; */
-    display: flex;
     background-image: url(../img/img7.png);
-    padding-top: 105px;
-    padding-bottom: 105px;
-    background-position: center;
+    padding-top: 106px;
+    padding-bottom: 104px;
     background-repeat: no-repeat;
-    background-size: cover;
+    max-width: 1440px;
 }
 
 .advantages-list {
-    justify-content: center;
     border: 5px solid var(--color-box);
     display: flex;
-    /* flex-direction: column; */
-    /* width: 1110px; */
-    /* height: 396px; */
+    align-items: center;
+    justify-content: space-between;
 }
 
 .advantages-list>.item {
@@ -218,33 +213,21 @@ address {
 }
 
 .advantages-title {
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    width: 159px;
-    color: var(--color-basic);
     text-align: center;
-    font-family: "Playfair Display";
+    font-family: Playfair Display;
     font-size: 36px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .advantages-hr {
-    margin-bottom: 50px;
-    align-items: center;
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
     height: 346px;
     background: var(--color-basic);
     width: 1px;
 }
 
-.advantages>.logo {
-    width: 240px;
-    height: 240px;
+.advantages-img {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .reviews {
@@ -253,7 +236,7 @@ address {
     background-repeat: no-repeat;
     padding-bottom: 50px;
     padding-top: 25px;
-    background-image: url(../img/img6.png);
+    background-image: url(../img/img6.png), url(../img/img13.png);
     background-position: center;
 }
 
@@ -477,6 +460,5 @@ address {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 178px;
-    height: 86px;
+    margin-top: -20px;
 }
